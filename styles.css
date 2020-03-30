@@ -1,0 +1,37 @@
+﻿.title {
+    text-align: center;
+}
+
+.colors {
+    /* color: midnightblue; */
+    color: #C70A55;
+}
+
+.carousel {
+    width: 640px;
+    height: 360px;
+    margin: auto;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #3B1086;
+    color: white
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    border: 1px solid #C70A55;
+    padding: 2px;
+    border-radius: 10px 10px 10px 10px;
+}
