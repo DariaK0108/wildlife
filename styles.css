@@ -63,10 +63,12 @@ body {
 
 @media (max-width: 499px) {
     img {
-        width: 80%;
+        width: 200px;
+        height: auto;
         border: 1px solid #C70A55;
         padding: 2px;
         border-radius: 10px 10px 10px 10px;
+        
     }
 
 
