@@ -35,3 +35,25 @@ img {
     padding: 2px;
     border-radius: 10px 10px 10px 10px;
 }
+
+#id {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.info {
+    font-style: italic;
+    background-color: #f0a28d;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    color: #41729b;
+}
+
+.city {
+    font-style: oblique;
+    font-family: Verdana;   
+    font-size: 20px;
+}
