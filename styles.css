@@ -5,12 +5,10 @@
 }
 
 .title {
-    font-size: 100px;
     color: #C70A55;
 }
 
 .subheading {
-    font-size: 80px;
     color: #f53d87 /*#fccfe1*/;
 }
 
@@ -19,8 +17,6 @@
 }
 
 .carousel {
-    width: 640px;
-    height: 360px;
     margin: auto;
 }
 
@@ -46,11 +42,12 @@ a {
     text-align: center;
 }
 
-#id {
+/*
+#id1 {
     font-size: 12px;
     font-style: italic;
 }
-
+*/
 .info {
     /* font-style: italic; */
     font-family: 'Libre Baskerville', serif;
@@ -86,7 +83,17 @@ a {
     .main {
         width: 80%;
     }
+    .carousel {
+        width: 640px;
+        height: 360px;
+    }
+    .title {
+        color: #C70A55;
+    }
 
+    .subheading {
+        font-size: 80px;
+    }
 }
 
 @media (max-width: 499px) {
@@ -100,10 +107,20 @@ a {
         
         /* height: 250px;*/
         /*height: 120px;*/
-       
-            
+    }
+    .carousel {
+        width: 90%;
+        height: auto;
+    }
+    .title {
+        font-size: 80px;
+        line-height: 0.8;
     }
 
+    .subheading {
+        font-size: 50px;
+        line-height: 0.8;
+    }
 }
 
 .gallery {
